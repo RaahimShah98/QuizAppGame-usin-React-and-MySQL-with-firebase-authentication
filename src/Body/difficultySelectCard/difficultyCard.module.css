@@ -1,0 +1,26 @@
+#difficultySelectCard{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 20px;
+    
+    background-color: black;
+}
+
+.difficultyCard{
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    color: black;
+}
+
+.difficultyCard h1{
+    font-size: 15px;
+}
+
+.difficultyCard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}

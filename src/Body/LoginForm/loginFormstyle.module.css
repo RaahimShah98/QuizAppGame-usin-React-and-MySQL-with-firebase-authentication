@@ -1,0 +1,46 @@
+#LoginForm{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+
+}
+
+
+#toRegisterFormBtn{
+    background-color: black;
+   
+    width: 100%;
+    
+}
+
+input{
+    border: 1px solid black;
+    padding: 3px 2px;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+button{
+    width: 100%;
+    padding: 3px 0px;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+#toRegisterFormBtn:hover{
+    transform: scale(1.05);
+}
+
+

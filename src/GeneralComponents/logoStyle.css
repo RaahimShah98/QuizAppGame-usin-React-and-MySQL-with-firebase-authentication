@@ -1,0 +1,11 @@
+#LogoDiv{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Logo:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}

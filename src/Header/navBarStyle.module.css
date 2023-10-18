@@ -1,0 +1,29 @@
+#navBar{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+
+}
+
+
+#navBarList{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.navBarListItem{
+  
+    padding: 15px 10px;
+ 
+}
+
+.navBarListItem:hover{
+    transform: scale(1.04);
+    border-bottom: 2px solid black;
+
+
+
+}

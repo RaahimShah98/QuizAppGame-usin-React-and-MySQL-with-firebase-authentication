@@ -1,0 +1,45 @@
+
+
+#QuestionAnswerPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+
+.endResultArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    display: block;
+    width: 100%;
+    height:100%;
+    
+  
+}
+
+.failScreen{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    background-color: red;
+    color: white;
+}
+
+.passScreen{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        justify-content: center;
+        background-color: green;
+        color: white;
+    
+}
